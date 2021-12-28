@@ -1,0 +1,91 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    max-width: calc(1440px - 240px);
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.about-course {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 55px;
+}
+
+.text-block {
+   max-width: 662px;
+   font-size: 24px;
+   line-height: 150%;
+   font-family: Roboto;
+   padding: 5px;
+}
+
+.about-course-img {
+    max-width: 366px;
+}
+
+.operator {
+    margin-right: 132px;
+}
+
+.course-plan {
+    display: flex;
+    margin-top: 65px;
+}
+
+.course-plan-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 640px;
+}
+
+.details {
+    max-width: 150px;
+}
+
+.subtitle {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.description {
+    font-size: 18px;
+}
+
+@media (min-width: 830px) and (max-width: 1399px) {
+    .operator{
+        display: none;
+    }
+
+    .text-block{
+        padding-top: 38px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 829px) {
+    .operator{
+        display: none;
+    }
+
+    .about-course{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .course-plan-details{
+        max-width: 309px;
+        flex-wrap: wrap;
+    }
+
+    /* .wrapper{
+        max-width: 309px;
+    } */
+}
