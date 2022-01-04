@@ -89,3 +89,46 @@ h1 {
         max-width: 309px;
     } */
 }
+
+@media (max-width: 374px) {
+    .operator{
+        display: none;
+    }
+
+    h1 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .about-course{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-block {
+        font-size: 15px;
+    }
+
+    .about-course-img {
+        max-width: 150px;
+    }
+
+    .course-plan {
+        margin-top: 30px;
+    }
+    
+    .course-plan-details{
+        max-width: 309px;
+        flex-wrap: wrap;
+    }
+
+    .subtitle {
+        font-size: 20px;
+        margin-top: 0px;
+    }
+
+    .description {
+        font-size: 15px;
+        margin-top: 5px;
+    }
+}
