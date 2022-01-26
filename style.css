@@ -383,6 +383,8 @@ ul {
 
 .phone-mail-description {
     margin: 0;
+    color: white;
+    text-decoration: none;
 }
 
 .black-block-top-contacts-double {
